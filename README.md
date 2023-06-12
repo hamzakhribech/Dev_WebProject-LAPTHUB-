@@ -1,4 +1,4 @@
-LAPTHUB - Your Ultimate Laptop Finder and Resource Platform
+LAPTHUB - Your Ultimate Laptop Finder and Resource Platform(Watch the video )
 
 Welcome to LAPTHUB, the ultimate destination for finding your dream laptop and accessing valuable resources related to personal computing. With LAPTHUB(LAPTOP+HUB), you can effortlessly navigate through an extensive collection of laptops, carefully curated to cater to your unique preferences and requirements.
 
