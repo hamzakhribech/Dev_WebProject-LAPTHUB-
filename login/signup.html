@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/adc42a005e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="formstyle.css" />
+     <link rel="shortcut icon" href="../Assets/logicon.png" type="image/x" />
+     <title>LAPTHUB</title>
+  </head>
+
+  <body>
+    <div class="backcont">
+    <img class="backgroundimg" src="../Assets/formbg.jpg"></img>
+
+    </div>
+   
+    <div class="container">
+        <h2 >Member Data Collection Form</h2>
+      <div style="height: 150px;width: 200px;display: flex;justify-content: center;align-content: center;">
+       <img style='height:200px;width:200;' src='../Assets/logo1.png' >
+        </div>
+      <!-- <div class="container-close">&times;</div> -->
+   
+      <div class="container-text">
+          <form  class="form1"action="sending.php" method="post" enctype="multipart/form-data">
+          <label class="naml" for="">Full Name <p style="position: relative;left: 30%; display: inline; font-size: 14px;"></p></label>
+          <input class="nameinpt"type="text" name="name" placeholder="Type here..." />
+          <label class="eml"for="">Email <p style="position: relative;left: 30%; display: inline; font-size: 14px;"></p></label>
+          <input class="mailinpt"type="email" name="email"  placeholder="username@gmail.com"  />
+          <label class="psl" required>Password<p style=" position: relative;left: 30%;  display: inline; font-size: 14px;"></p></label>
+          <input class="passwordinpt"type="password" name="password"/>
+          <!-- <datalist id="cellules">
+            <option value="Design"></option>
+            <option value="Photography"></option>
+            <option value="Montage"></option>
+            <option value="Pilotage"></option>
+            <option value="..."></option>
+          </datalist> -->
+
+          <label
+            for="file-input"
+            style="
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+            >Download your profile image:
+          </label>
+           <!-- <i style="transform: scale(1.5)translate(-112px,15px); position: absolute;"class="fa-solid fa-download"></i> -->
+          <input class="this"
+            type="file"
+            name="img"
+            required
+            style="
+            filter:opacity(20);
+            cursor: pointer;
+              height: 40px;
+              width: 200px;
+              position: relative;
+              /* background-color: rgb(251, 0, 0); */
+              bottom: 0px;
+              right: 10px;
+              border: none;
+              z-index: 2;
+            "
+          />
+          <!-- <p style="position: absolute; transform: translate(10px,-19px); font-size: 10px;">click here</p> -->
+          <button type="submit" class="send" name="submit" value="upload" required>
+           Sign UP
+          </button>
+          <a class="display" href="login.php">Log In</a>
+        </form>
+
+        <!-- <img src="files/to_hide_it.png"
+                style="height:40px;width:40px; position:relative;bottom: 12px;left:px; z-index:3;" alt="image">
+            -->
+        <!-- <span>ALL eyes on us</span> -->
+      </div>
+    </div>
+
+    <footer>
+      <!-- <p>Copyright © 2023 Hamza Khribech Reporters</p> -->
+    </footer>
+  </body>
+ <script src="../javascript/signup.js"></script>
+
+</html>

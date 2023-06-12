@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&display=swap");
+
+
+html, body{
+    height: 100%;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+
+
+
+/*Header */
+
+#page-header.about-header{
+    background-image: url("./assets/img/pic2.jpg");
+    background-size: cover;
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content:center; 
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 90px;
+}
+
+#page-header.about-header h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#page-header.about-header p{
+    font-size: 2rem;
+     font-family: 'Quicksand', sans-serif;
+
+    font-weight: 500;
+}
+
+#about-header img{
+    width: 50%;
+    height: auto;
+}
+
+#about-header{
+    display: flex;
+    align-items: center;
+    margin-top: 100px; 
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#about-header div{
+    padding-left: 40px;
+} 
+
+ /* Builders */
+
+#builders{
+    padding: 14px;
+    text-align: center;
+    width: 90%;
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#builders h1{
+        font-family: 'Josefin Sans', sans-serif;
+
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(5, 70, 107);
+    margin-bottom: 40px;
+}
+
+
+#builders .builder-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 1rem;
+    /* position: relative;
+    overflow: hidden; */
+    
+}
+
+/* #builders .builder-box .profile{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    Object-fit:(cover);
+    transition: transform 0.3s ease-in-out;
+} */
+
+/* #builders .builder-box:hover .profile{
+    transform: scale(1.1);
+} */
+
+#imgContainer{
+    width:300px;
+    Height: 300;
+    position: relative;
+    display: inline-block; 
+    position: relative;
+    overflow: hidden;
+}
+#imgContainer img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    Object-fit:(cover);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#imgContainer:hover img{
+    transform: scale(1.1);
+}
+
+#builders .builder-box .profile{
+    background-color: aliceblue;
+    padding: 30px 10px; 
+    border-radius: 30px;
+    
+}
+
+#builders .builder-box .profile img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#builders .builder-box .profile h6{
+     font-family: 'Josefin Sans', sans-serif;
+    margin: 5px;
+    color: rgb(5, 70, 107);
+    font-size: 1.1rem;
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.fa:hover {
+      opacity: 0.7;
+}
+
+ .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+.fa-github{
+    background-color: #D3D3D3;
+    color: black;
+}
+
+/*Our Mission */
+#mission{
+    padding: 14px;
+    text-align: center;
+    width: 90%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#mission img{
+    width: 90%;
+    height: auto;
+    position: relative;
+}
+#mission .missiondiv{
+        font-family: 'Josefin Sans', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+
+#mission h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(5, 70, 107);
+    margin-bottom: 40px;
+     font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#mission p{
+    text-align: justify;
+    font-size: 16px;
+    padding-left: 40px;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+     font-family: sans-serif;
+}
+
+/*footer */
+
+footer{
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(28, 28, 28);
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    /* height: 500px; */
+    flex-shrink: 0;
+    margin-top: auto;
+}
+
+footer .cols-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    /* justify-content: space-between;  */
+}
+
+footer .footer-col{
+    margin: 0;
+  width: 20%;
+    padding: 30px;
+    
+}
+footer .soc{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 30px;
+    
+}
+
+footer .footer-col h3{
+        font-family: 'Josefin Sans', sans-serif;
+
+    color: rgb(255, 255, 255);
+    /* font-family: 'Popins', sans-serif; */
+    margin-bottom: 15px;
+}
+
+footer .footer-col li{
+    list-style: none;
+    
+        
+
+}
+
+footer .footer-col li a{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+         font-family: 'Quicksand', sans-serif;
+         font-weight: bold;
+         transition: 0.5s;
+
+} 
+
+footer .footer-col li a:hover{
+    color: rgb(0, 146, 199);
+    transform: translateX(4px);
+    
+}
+
+footer .footer-col .social-links .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
+    height: 5x;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px;
+}
+
+footer .footer-col .social-links .fa:hover {
+      opacity: 0.7;
+}
+
+footer .footer-col .social-links .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+footer .footer-col .social-links .fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+footer .footer-col .social-links .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+footer .footer-col .social-links .fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+    
+footer .cols-container .column{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+footer .footer-col p{
+    margin: 20px;
+    color: gray;
+}
+
+footer .sign-up{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 600;
+    width: 90%;
+    background-color: rgb(2, 162, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.my-line {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgb(5, 70, 107);
+}
+
+footer #copyright{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0px;
+
+   
+}
+
+
+footer #copyright img{
+  width: 20%;
+  
+}
+
+@media (max-width: 350px) {
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;                                              
+    }
+
+    footer .footer-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+   footer .column  .footer-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   }
+
+    footer .cols-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer .cols-container .footer-col h3{
+        text-align: center;
+    }
+
+    footer .cols-container .footer-col .social-links{
+        text-align: center;
+    }
+
+    footer .cols-container .footer-col p{
+        text-align: center;
+    }
+
+    .my-line {
+        width: 100%;
+        border: none;
+        border-top: 1px solid rgb(5, 70, 107);
+    }
+    
+    footer #copyright{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer #copyright p{
+        width: 60%;
+        
+    }
+
+    footer #copyright a{
+        width:40%;
+    }
+
+    footer #copyright a img{
+        width: 50%;
+    }
+
+    #mission .missiondiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #mission p{
+        text-align: justify;
+        font-size: 16px;
+        padding: 40px;
+        margin: 20px 10 20px 0;
+        line-height: 1.5;
+    }
+    
+} 
+
+
+
+
+
+
+
